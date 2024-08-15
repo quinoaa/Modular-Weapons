@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "space.quinoaa.modularweapons.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "ModularWeapons.refmap.json",
+  "mixins": [
+  ],
+  "client": [
+    "GameRendererMixin",
+    "ItemInHandRendererMixin",
+    "ItemRendererMixin",
+    "MinecraftMixin",
+    "OptionsMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

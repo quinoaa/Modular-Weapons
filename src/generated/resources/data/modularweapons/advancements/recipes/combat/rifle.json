@@ -1,0 +1,29 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "modularweapons:rifle"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "rifle": {
+      "conditions": {
+        "recipe": "modularweapons:rifle"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "rifle",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "modularweapons:rifle"
+    ]
+  },
+  "sends_telemetry_event": false
+}

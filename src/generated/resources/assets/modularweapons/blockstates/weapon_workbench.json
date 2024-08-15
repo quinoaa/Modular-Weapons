@@ -1,0 +1,34 @@
+{
+  "variants": {
+    "facing=east,is_main=false": {
+      "model": "modularweapons:block/weapon_workbench",
+      "y": 90
+    },
+    "facing=east,is_main=true": {
+      "model": "modularweapons:block/weapon_workbench",
+      "y": 90
+    },
+    "facing=north,is_main=false": {
+      "model": "modularweapons:block/weapon_workbench"
+    },
+    "facing=north,is_main=true": {
+      "model": "modularweapons:block/weapon_workbench"
+    },
+    "facing=south,is_main=false": {
+      "model": "modularweapons:block/weapon_workbench",
+      "y": 180
+    },
+    "facing=south,is_main=true": {
+      "model": "modularweapons:block/weapon_workbench",
+      "y": 180
+    },
+    "facing=west,is_main=false": {
+      "model": "modularweapons:block/weapon_workbench",
+      "y": 270
+    },
+    "facing=west,is_main=true": {
+      "model": "modularweapons:block/weapon_workbench",
+      "y": 270
+    }
+  }
+}

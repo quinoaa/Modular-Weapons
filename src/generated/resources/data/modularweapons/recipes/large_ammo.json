@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "g": {
+      "item": "minecraft:gunpowder"
+    },
+    "i": {
+      "item": "minecraft:iron_nugget"
+    }
+  },
+  "pattern": [
+    "iii",
+    "gii"
+  ],
+  "result": {
+    "item": "modularweapons:large_ammo"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "i": {
+      "item": "minecraft:iron_nugget"
+    },
+    "r": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "pattern": [
+    "iir"
+  ],
+  "result": {
+    "item": "modularweapons:gunner_barrel"
+  },
+  "show_notification": true
+}

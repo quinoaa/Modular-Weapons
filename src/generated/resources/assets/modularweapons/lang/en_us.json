@@ -1,0 +1,16 @@
+{
+  "block.modularweapons.weapon_workbench": "Weapon Workbench",
+  "item.modularweapons.ammo": "Ammo",
+  "item.modularweapons.barrel": "Barrel",
+  "item.modularweapons.gunner_barrel": "Gunner barrel",
+  "item.modularweapons.incendiary_ammo": "Incendiary ammo",
+  "item.modularweapons.large_ammo": "Large ammo",
+  "item.modularweapons.multi_barrel_gun": "Multi-barrel gun",
+  "item.modularweapons.rifle": "Rifle",
+  "item.modularweapons.scope_x2": "Scope x2",
+  "item.modularweapons.scope_x4": "Scope x4",
+  "item.modularweapons.scope_x8": "Scope x8",
+  "item.modularweapons.sniper_barrel": "Sniper barrel",
+  "modularweapons.tab.title": "Modular Weapons",
+  "modularweapons.workbench.title": "Weapon Workbench"
+}

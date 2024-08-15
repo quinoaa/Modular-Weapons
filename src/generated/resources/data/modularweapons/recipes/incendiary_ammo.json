@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "b": {
+      "item": "minecraft:blaze_powder"
+    },
+    "g": {
+      "item": "minecraft:gunpowder"
+    },
+    "i": {
+      "item": "minecraft:iron_nugget"
+    }
+  },
+  "pattern": [
+    "ii ",
+    "gib"
+  ],
+  "result": {
+    "item": "modularweapons:incendiary_ammo"
+  },
+  "show_notification": true
+}

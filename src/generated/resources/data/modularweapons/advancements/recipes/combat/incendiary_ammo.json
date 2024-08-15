@@ -1,0 +1,29 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "modularweapons:incendiary_ammo"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "incendiary_ammo": {
+      "conditions": {
+        "recipe": "modularweapons:ammo"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "incendiary_ammo",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "modularweapons:incendiary_ammo"
+    ]
+  },
+  "sends_telemetry_event": false
+}

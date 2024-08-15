@@ -1,0 +1,29 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "modularweapons:weapon_workbench"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "weapon_workbench": {
+      "conditions": {
+        "recipe": "modularweapons:weapon_workbench"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "weapon_workbench",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "modularweapons:weapon_workbench"
+    ]
+  },
+  "sends_telemetry_event": false
+}

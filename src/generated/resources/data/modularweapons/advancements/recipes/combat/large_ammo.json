@@ -1,0 +1,29 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "modularweapons:large_ammo"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "large_ammo": {
+      "conditions": {
+        "recipe": "modularweapons:ammo"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "large_ammo",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "modularweapons:large_ammo"
+    ]
+  },
+  "sends_telemetry_event": false
+}

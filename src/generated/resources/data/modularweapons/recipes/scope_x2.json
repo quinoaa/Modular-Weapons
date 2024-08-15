@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "g": {
+      "item": "minecraft:glass"
+    },
+    "i": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "pattern": [
+    "iii",
+    "igi",
+    "iii"
+  ],
+  "result": {
+    "item": "modularweapons:scope_x2"
+  },
+  "show_notification": true
+}

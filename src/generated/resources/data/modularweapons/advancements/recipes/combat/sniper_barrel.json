@@ -1,0 +1,29 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "modularweapons:sniper_barrel"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "sniper_barrel": {
+      "conditions": {
+        "recipe": "modularweapons:sniper_barrel"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "sniper_barrel",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "modularweapons:sniper_barrel"
+    ]
+  },
+  "sends_telemetry_event": false
+}
