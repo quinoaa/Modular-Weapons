@@ -3,7 +3,7 @@
   "minVersion": "0.8",
   "package": "space.quinoaa.modularweapons.mixin",
   "compatibilityLevel": "JAVA_8",
-  "refmap": "ModularWeapons.refmap.json",
+  "refmap": "modularweapons.refmap.json",
   "mixins": [
   ],
   "client": [
